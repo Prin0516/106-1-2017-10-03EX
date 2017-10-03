@@ -25,8 +25,8 @@ public class MainFrame extends JFrame {
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         cp=this.getContentPane();
         cp.setLayout(new BorderLayout(3,3));
-        jtaL.setPreferredSize(new Dimension(200,400));
-        jtaR.setPreferredSize(new Dimension(200,400));
+        jspL.setPreferredSize(new Dimension(200,400));
+        jspR.setPreferredSize(new Dimension(200,400));
         jtaR.setLineWrap(true);
         jtaL.setLineWrap(true);
         jtaR.setEditable(false);
