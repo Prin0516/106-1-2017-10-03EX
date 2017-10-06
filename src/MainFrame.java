@@ -5,9 +5,9 @@ import java.awt.event.ActionListener;
 
 public class MainFrame extends JFrame {
     private Container cp;
-    private JButton jbtnex=new JButton("Example");
-    private JButton jbtn2=new JButton("Encrypt");
-    private JButton jbtnclear=new JButton("Clear");
+    private JButton jbtnex=new JButton("範例文");
+    private JButton jbtn2=new JButton("加密");
+    private JButton jbtnclear=new JButton("清除");
     private JButton jbtnexit=new JButton("Exit");
     private JLabel jlb=new JLabel("Key");
     private JTextField jtf=new JTextField("0");
@@ -23,6 +23,7 @@ public class MainFrame extends JFrame {
     public void init(){
         this.setBounds(10,10,500,400);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        this.setTitle("凱薩加密法");
         cp=this.getContentPane();
         cp.setLayout(new BorderLayout(3,3));
         jspL.setPreferredSize(new Dimension(200,400));
